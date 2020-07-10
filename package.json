@@ -1,11 +1,25 @@
 {
   "name": "jwtauthority",
   "version": "1.0.0",
-  "description": "",
+  "description": "jwt authentication with example",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdaijaj/jwtAuthentication.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/mdaijaj/jwtAuthentication/issues"
+  },
+  "homepage": "https://github.com/mdaijaj/jwtAuthentication#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {}
 }
